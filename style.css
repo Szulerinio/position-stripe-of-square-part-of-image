@@ -1,0 +1,16 @@
+.image{
+    object-position: 50% 0%;
+    object-fit:cover;
+}
+.container{
+
+    display: flex;
+    gap:20px;
+}
+.imageAndStripeWrapper{
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
