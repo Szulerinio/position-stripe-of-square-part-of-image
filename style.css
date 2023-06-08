@@ -1,16 +1,36 @@
-.image{
-    object-position: 50% 0%;
-    object-fit:cover;
+.image {
+  object-position: 50% 0%;
+  object-fit: cover;
 }
-.container{
 
-    display: flex;
-    gap:20px;
+.container {
+  display: flex;
+  gap: 20px;
 }
-.imageAndStripeWrapper{
-    border: 1px solid black;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    gap:10px;
+
+.imageAndStripeWrapper {
+  border: 1px solid black;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.source,
+.sourceSquare {
+  position: relative;
+}
+
+.reference,
+.referenceSquare {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  left: 0;
+  height: 33%;
+  z-index: 2;
+  content: " ";
+  top: 0px;
+  display: block;
+  border: 1px solid blue;
 }

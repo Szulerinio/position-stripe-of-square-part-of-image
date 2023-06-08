@@ -9,24 +9,36 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    stripe position 0-100:<input type="number" id="positionY" />
+    stripe position 0-100:<input
+      min="0"
+      max="100"
+      type="number"
+      id="positionY"
+      value="0"
+    />
     <br />
     <div class="container">
       <div class="imageAndStripeWrapper">
-        <img
-          height="300px"
-          width="300px"
-          src="1000x500square.png"
-          class="image image-500"
-          alt=""
-        />
-        <img
-          height="300px"
-          width="300px"
-          src="1000x500.png"
-          class="image image-500"
-          alt=""
-        />
+        <div class="sourceSquare">
+          <img
+            height="300px"
+            width="300px"
+            src="1000x500square.png"
+            class="image image-500"
+            alt=""
+          />
+          <div class="referenceSquare"></div>
+        </div>
+        <div class="source">
+          <img
+            height="300px"
+            width="300px"
+            src="1000x500.png"
+            class="image image-500 image-controlled"
+            alt=""
+          />
+          <div class="reference"></div>
+        </div>
         <img
           height="100px"
           width="300px"
@@ -43,20 +55,26 @@
         />
       </div>
       <div class="imageAndStripeWrapper">
-        <img
-          height="300px"
-          width="300px"
-          src="1000x300square.png"
-          class="image image-300"
-          alt=""
-        />
-        <img
-          height="300px"
-          width="300px"
-          src="1000x300.png"
-          class="image image-300"
-          alt=""
-        />
+        <div class="sourceSquare">
+          <img
+            height="300px"
+            width="300px"
+            src="1000x300square.png"
+            class="image image-300"
+            alt=""
+          />
+          <div class="referenceSquare"></div>
+        </div>
+        <div class="source">
+          <img
+            height="300px"
+            width="300px"
+            src="1000x300.png"
+            class="image image-300 image-controlled"
+            alt=""
+          />
+          <div class="reference"></div>
+        </div>
         <img
           height="100px"
           width="300px"
@@ -73,20 +91,26 @@
         />
       </div>
       <div class="imageAndStripeWrapper">
-        <img
-          height="300px"
-          width="300px"
-          src="1000x200square.png"
-          class="image image-200"
-          alt=""
-        />
-        <img
-          height="300px"
-          width="300px"
-          src="1000x200.png"
-          class="image image-200"
-          alt=""
-        />
+        <div class="sourceSquare">
+          <img
+            height="300px"
+            width="300px"
+            src="1000x200square.png"
+            class="image image-200"
+            alt=""
+          />
+          <div class="referenceSquare"></div>
+        </div>
+        <div class="source">
+          <img
+            height="300px"
+            width="300px"
+            src="1000x200.png"
+            class="image image-200 image-controlled"
+            alt=""
+          />
+          <div class="reference"></div>
+        </div>
         <img
           height="100px"
           width="300px"
@@ -103,20 +127,26 @@
         />
       </div>
       <div class="imageAndStripeWrapper">
-        <img
-          height="300px"
-          width="300px"
-          src="1000x100square.png"
-          class="image image-100"
-          alt=""
-        />
-        <img
-          height="300px"
-          width="300px"
-          src="1000x100.png"
-          class="image image-100"
-          alt=""
-        />
+        <div class="sourceSquare">
+          <img
+            height="300px"
+            width="300px"
+            src="1000x100square.png"
+            class="image image-100"
+            alt=""
+          />
+          <div class="referenceSquare"></div>
+        </div>
+        <div class="source">
+          <img
+            height="300px"
+            width="300px"
+            src="1000x100.png"
+            class="image image-100 image-controlled"
+            alt=""
+          />
+          <div class="reference"></div>
+        </div>
         <img
           height="100px"
           width="300px"
